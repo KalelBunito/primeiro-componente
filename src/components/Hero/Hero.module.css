@@ -1,0 +1,17 @@
+.heroContainer{
+    margin-top: 74px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.heroLeft{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerButtons button{
+    margin-right: 24px;
+}

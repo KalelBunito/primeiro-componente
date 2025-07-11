@@ -1,0 +1,44 @@
+.navbar{
+
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/* padrao font-size: 24px
+font-size: 1.5rem*/
+.logo{
+    font-size: 1.7rem;
+}
+.bracket{
+    color: orange;
+}
+.menuItem{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+}
+.menuLink{
+    font-weight: bold;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease, color 0.2s ease;
+}
+.menuLink:hover{
+    transform: scale(1.1);
+    color: #ffa500;
+}
+.blue{
+    color: rgb(0, 0, 255);
+}
+.purple{
+    color: rgba(137, 43, 226, 0.988);
+}
+.green{
+    color: rgb(0, 128, 0);
+}
+.yellow{
+    color: rgb(255, 217, 0);
+}
