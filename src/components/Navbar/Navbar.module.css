@@ -6,6 +6,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    z-index: 1000;
 }
 /* padrao font-size: 24px
 font-size: 1.5rem*/
