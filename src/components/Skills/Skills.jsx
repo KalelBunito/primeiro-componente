@@ -19,12 +19,12 @@ export default function Skills() {
                 <h2>Minhas Habilidades</h2>
                 <p>Transformo ideias complexas em soluçoes digitais elegantes...</p>
             </div>
-            <div>
+            <div className={styles.containerCard}>
                 {skills.map((item, index) => (
-                    <motion.div key={index}>
-                        <div>{item.icon}</div>
-                        <h3>{item.title}</h3>
-                        <p>{item.desc}</p>
+                    <motion.div key={index} className={styles.card} whileHover = {{scale:1.10}} transition={{type: 'spring', stiffness: 300}}>
+                        <div className={styles.icon}>{item.icon}</div>
+                        <h3 className={styles.title}>{item.title}</h3>
+                        <p className={styles.desc}>{item.desc}</p>
                     </motion.div>
                 ))}
             </div>

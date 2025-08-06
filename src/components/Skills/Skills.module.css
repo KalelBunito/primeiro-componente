@@ -1,0 +1,22 @@
+.containerMain{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*background-color: blue; */
+    padding: 60px;
+}
+.containerCard{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 40px;
+    margin-top:32px;
+
+}
+.card{
+    max-width:250px;
+    padding: 16px;
+    border: 1px solid white;
+    box-shadow: 4px 4px 4px white;
+    border-radius: 8px;
+}

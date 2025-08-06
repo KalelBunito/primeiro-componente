@@ -21,8 +21,12 @@ export default function Hero() {
             </div>
 
             {isModalOpen && (
-                <div>
-                    <p>Fui clicado</p>
+                <div className={styles.modalOverlay} onClick={()=> setIsModalOpen(false)}>
+                    <div className={styles.modalContent}>
+                        <h2>Entre em contato</h2>
+                        <p>Você pode me chamar no email: kalelhbarboza@gmail.com</p>
+                        <button onClick={()=> setIsModalOpen(false)}>Fechar</button>
+                    </div>
                 </div>
             )}
 
