@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar.jsx'
 import Hero from './components/Hero/Hero.jsx'
 import Skills from './components/skills/Skills.jsx'
 import Projects from './components/Projects/Projects.jsx'
+import Footer from './components/Footer/Footer.jsx'
 
 export default function App() {
  

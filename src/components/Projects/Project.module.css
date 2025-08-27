@@ -1,0 +1,27 @@
+.carousel {
+    text-align: center;
+    padding:40px 0;
+}
+.cardCarousel{
+    overflow: hidden;
+    width: 90%;
+    margin: 0 auto;
+}
+.inner{
+    display: flex;
+}
+.card{
+    min-width: 100%;
+}
+.card img{
+    width: 400px;
+    height: 250px;
+}
+.control{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.control button{
+ font-size: 18px;
+}
